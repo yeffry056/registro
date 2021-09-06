@@ -29,6 +29,7 @@ namespace registro
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.a = new System.Windows.Forms.ComboBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
@@ -292,6 +293,7 @@ namespace registro
             this.Controls.Add(this.a);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Registros de Usuarios";
             this.Load += new System.EventHandler(this.Form1_Load);
